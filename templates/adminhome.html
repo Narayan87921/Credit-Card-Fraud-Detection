@@ -1,0 +1,67 @@
+{% extends "nav.html" %}
+{% block content %}
+{% load static %}
+<section class="contact_section layout_padding">
+    <div class="container" style="padding-top: 30px; padding-bottom: 50px;">
+      <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+        <h2 style="font-weight: 700; color: #470005; margin: 0;">
+        Credit Card Fraud Detection Log
+        </h2>
+        {% if cc %}
+        <a href="delete_all_history" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete ALL transaction history?');" style="font-weight: 600; border-radius: 20px; padding: 8px 20px;">
+          🗑️ Clear All History
+        </a>
+        {% endif %}
+      </div>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Category</th>
+              <th scope="col">Amount</th>
+              <th scope="col">User Location</th>
+              <th scope="col">Merchant Location</th>
+              <th scope="col">Job</th>
+              <th scope="col">Prediction</th>
+              <th scope="col" class="text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for i in cc %}
+            <tr>
+              <th scope="row">{{i.id}}</th>
+              <td>{{i.category}}</td>
+              <td>{{i.amount}}</td>
+              <td>{{i.latitude}}</td>
+              <td>{{i.merchant_latitude}}</td>
+              <td>{{i.jobs}}</td>
+              <td>
+                {% if i.prediction == "Fraud" %}
+                <span class="badge badge-danger" style="font-size: 14px; padding: 6px 12px;">Fraud</span>
+                {% else %}
+                <span class="badge badge-success" style="font-size: 14px; padding: 6px 12px;">No Fraud</span>
+                {% endif %}
+              </td>
+              <td class="text-center">
+                <a href="delete_history/{{i.id}}" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure you want to delete this record?');" style="font-weight: 600;">
+                  Delete
+                </a>
+              </td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="8" class="text-center text-muted" style="padding: 30px; font-size: 16px;">No transaction records found.</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+</section>
+
+{% for i in messages %}
+<script>alert("{{i}}")</script>
+{% endfor %}
+
+{% endblock %}

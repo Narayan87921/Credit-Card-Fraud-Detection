@@ -1,0 +1,54 @@
+{% extends "nav.html" %}
+{% block content %}
+{% load static %}
+
+
+
+
+ <!-- contact section start -->
+ <div class="Contact_section layout_padding">
+    <div class="container">
+      <h1 class="categories_text">Admin</h1>
+      <p class="dummy_text"></p>
+      <div class="email_box">
+        <div class="input_main">
+          <div class="container">
+            <form method="post">
+                {% csrf_token %}
+              
+              <div class="form-group">
+                <input type="text" class="email-bt" placeholder="Username" name="uname">
+              </div>
+              
+              
+              <div class="form-group">
+                <input type="password" class="email-bt" placeholder="Password" name="psw">
+              </div>
+              <div class="send_bt"><button type="submit" style="width: 100%;
+                float: left;
+                font-size: 18px;
+                color: #ffffff;
+                background-color: #d1b75e;
+                text-align: center;
+                padding: 10px 0px;
+                border-radius: 40px;
+                margin-top: 20px;
+                text-transform: uppercase;">Admin</button></div> 
+              
+            </form>   
+          </div> 
+                         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact section end -->
+ 
+{% for i in messages %}
+<script>alert("{{i}}")</script>
+
+{% endfor %}
+
+
+
+{% endblock %}

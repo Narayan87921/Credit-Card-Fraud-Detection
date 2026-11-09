@@ -1,0 +1,469 @@
+category,amt,lat,long,merch_lat,merch_long,is_fraud,job
+misc_net,4.97,36.0788,-81.1781,36.011293,-82.048315,0,"Psychologist, counselling"
+grocery_pos,107.23,48.8878,-118.2105,49.159047,-118.186462,0,Special educational needs teacher
+entertainment,220.11,42.1808,-112.262,43.150704,-112.154481,0,Nature conservation officer
+gas_transport,45,46.2306,-112.1138,47.034331,-112.561071,0,Patent attorney
+misc_pos,41.96,38.4207,-79.4629,38.674999,-78.632459,0,Dance movement psychotherapist
+gas_transport,94.63,40.375,-75.2045,40.653382,-76.152667,0,Transport planner
+grocery_net,44.54,37.9931,-100.9893,37.162705,-100.15337,0,Arboriculturist
+gas_transport,71.65,38.8432,-78.6003,38.948089,-78.540296,0,"Designer, multimedia"
+misc_pos,4.27,40.3359,-79.6607,40.351813,-79.958146,0,Public affairs consultant
+grocery_pos,198.39,36.522,-87.349,37.179198,-87.485381,0,Pathologist
+grocery_pos,24.74,40.7491,-95.038,40.275891,-96.011548,0,IT trainer
+shopping_net,7.77,39.3716,-77.8229,40.103866,-78.624459,0,Systems developer
+grocery_pos,71.22,27.7898,-82.7243,27.630593,-82.308891,0,"Engineer, land"
+grocery_pos,96.29,41.6125,-122.5258,41.65752,-122.230347,0,Systems analyst
+shopping_pos,7.77,32.9396,-105.8189,32.863258,-106.520205,0,Naval architect
+shopping_net,3.26,40.9918,-73.98,41.831174,-74.335559,0,"Radiographer, diagnostic"
+misc_net,327,36.385,-98.0727,36.384092,-99.048472,0,"Programme researcher, broadcasting/film/video"
+shopping_pos,341.67,38.9763,-87.3667,38.674491,-88.305767,0,Energy engineer
+food_dining,63.07,42.1767,-79.9416,41.430274,-79.492553,0,Event organiser
+grocery_pos,44.71,40.6747,-74.2239,40.079588,-74.848087,0,Operational researcher
+grocery_pos,57.34,42.728,-71.181,42.26876,-71.217297,0,Market researcher
+gas_transport,50.79,40.6866,-92.6833,40.18893,-91.955115,0,Probation officer
+grocery_net,46.28,40.6152,-74.415,40.021888,-74.228188,0,Leisure centre manager
+shopping_pos,9.55,31.9571,-98.9656,31.62635,-98.610225,0,Corporate investment banker
+shopping_pos,22.95,42.9993,-88.2196,43.375041,-89.055065,0,"Therapist, occupational"
+misc_net,2.55,35.8072,-78.0892,36.74987,-78.67787,0,Call centre manager
+grocery_pos,64.09,42.2203,-83.3583,42.360426,-83.552316,0,Police officer
+misc_pos,6.85,43.0172,-111.0292,43.753735,-111.454923,0,"Education officer, museum"
+grocery_pos,90.22,20.0827,-155.488,19.560013,-156.045889,0,Physiotherapist
+shopping_pos,4.02,42.8062,-100.6215,42.47559,-101.265846,0,Network engineer
+shopping_net,3.66,43.7575,-122.481,44.278191,-121.815161,0,Forensic psychologist
+grocery_pos,82.8,36.3846,-89.4649,36.294205,-89.811282,0,Geochemist
+shopping_pos,66.21,46.368,-87.9938,46.412038,-88.516663,0,Armed forces training and education officer
+misc_pos,25.58,30.4066,-91.1468,29.737426,-90.853194,0,"Designer, furniture"
+shopping_pos,9.03,38.9757,-77.0282,38.880898,-76.441116,0,"Optician, dispensing"
+grocery_pos,99,37.1046,-83.5706,36.823545,-83.90104,0,"Psychologist, forensic"
+grocery_pos,207.36,40.6729,-73.5365,40.202538,-73.859212,0,"Librarian, public"
+misc_pos,181.35,32.153,-90.1217,31.939812,-90.726209,0,Fine artist
+gas_transport,82.22,40.5891,-75.4645,40.586238,-75.802249,0,"Scientist, research (maths)"
+grocery_pos,221.81,40.8095,-72.8229,40.011959,-72.594808,0,"Research officer, trade union"
+gas_transport,53.6,39.7562,-98.4462,40.332519,-99.062962,0,Tourism officer
+misc_pos,54.02,42.3496,-73.5873,42.041783,-73.076424,0,Human resources officer
+gas_transport,102.13,38.9999,-109.615,39.807313,-109.348294,0,"Surveyor, minerals"
+grocery_pos,212.75,37.9931,-100.9893,38.862183,-101.234087,0,Arboriculturist
+grocery_pos,130.4,42.9385,-88.395,42.236269,-88.397336,0,Applications developer
+grocery_pos,91.16,27.5155,-99.4986,27.588953,-99.816911,0,Video editor
+gas_transport,55.78,34.4959,-86.259,35.255978,-86.041872,0,Curator
+grocery_pos,83.07,48.34,-122.3456,48.682111,-122.719904,0,"Research officer, political party"
+shopping_net,4.38,39.5803,-87.4616,39.681736,-88.323862,0,"Engineer, mining"
+grocery_pos,130.89,33.5567,-90.5451,33.595647,-90.234118,0,"Education officer, community"
+grocery_pos,103,35.2087,-92.2123,35.034285,-92.34301,0,"Physicist, medical"
+grocery_net,50.82,34.847,-98.9836,34.852665,-98.90267,0,Amenity horticulturist
+gas_transport,60.77,45.7549,-84.447,45.323099,-85.116543,0,Electrical engineer
+food_dining,122.86,32.7699,-96.743,32.282224,-97.46183,0,Television camera operator
+grocery_pos,212.45,30.8985,-87.1332,31.414174,-87.138632,0,Higher education careers adviser
+misc_pos,7.33,43.0498,-78.851,43.1763,-77.901777,0,Ambulance person
+gas_transport,70.53,45.8289,-118.4971,46.043252,-117.962133,0,Dealer
+grocery_pos,58.26,38.9583,-76.2842,39.240962,-76.712732,0,Paediatric nurse
+grocery_net,50.45,41.8114,-93.4855,41.776673,-93.350689,0,Trading standards officer
+misc_net,177.57,38.9999,-109.615,38.419431,-109.380252,0,"Surveyor, minerals"
+shopping_pos,8.57,31.6489,-82.1982,32.023302,-82.58345,0,"Engineer, technical sales"
+gas_transport,56.66,44.5232,-86.2061,44.00529,-86.25199,0,"Designer, jewellery"
+grocery_net,75.34,39.2335,-77.1458,38.817293,-77.833468,0,Clinical biochemist
+gas_transport,62.54,44.0575,-69.9656,43.585423,-70.449359,0,"Engineer, electronics"
+grocery_pos,92.84,48.2777,-112.8456,49.080153,-113.53238,0,Water engineer
+misc_net,2.76,37.3304,-121.7913,37.548452,-121.536454,0,Science writer
+shopping_net,101.35,46.3481,-87.0436,46.796891,-86.331091,0,Film/video editor
+misc_net,303.47,36.7558,-83.1838,36.394203,-82.514283,0,"Psychologist, counselling"
+shopping_net,83.52,41.0233,-98.9041,40.992141,-98.831582,0,"Solicitor, Scotland"
+shopping_pos,9.97,38.6411,-100.138,38.075226,-99.138453,0,Product/process development scientist
+grocery_net,16.16,39.8936,-79.7856,39.222743,-78.839099,0,Tree surgeon
+grocery_pos,59.56,26.1184,-81.7361,25.801181,-82.351291,0,"Programme researcher, broadcasting/film/video"
+gas_transport,57.23,35.5762,-91.4539,36.144895,-92.188172,0,Careers information officer
+shopping_pos,317.14,35.2563,-111.95,35.268124,-112.682895,0,"Geologist, engineering"
+grocery_pos,127.88,38.097,-86.1723,38.860981,-86.773396,0,Counsellor
+shopping_net,113.4,43.0048,-108.8964,42.868965,-108.50335,0,Freight forwarder
+shopping_net,94.53,38.5095,-78.2638,37.84676,-79.262334,0,Senior tax professional/tax inspector
+shopping_pos,1.82,30.9788,-84.7373,31.973466,-84.244731,0,"Engineer, broadcasting (operations)"
+gas_transport,75.77,42.2848,-71.7205,42.889256,-71.888107,0,English as a second language teacher
+grocery_pos,108.59,43.5336,-95.6515,44.51103,-95.934394,0,Economist
+gas_transport,48.68,41.0472,-79.8089,40.237898,-79.894073,0,Patent attorney
+gas_transport,72.35,40.0113,-80.9701,39.308098,-81.698525,0,Child psychotherapist
+misc_pos,218.71,39.5994,-105.0044,39.335171,-104.102882,0,Water engineer
+gas_transport,52.59,44.3346,-73.098,45.084808,-73.626071,0,Claims inspector/assessor
+grocery_pos,89.11,39.7795,-93.3014,40.773306,-92.821257,0,Tourist information centre manager
+grocery_net,89.35,44.5995,-86.2141,44.630758,-87.123894,0,"Exhibitions officer, museum/gallery"
+grocery_pos,50.68,38.5677,-109.5271,38.482541,-108.853856,0,Location manager
+gas_transport,64.47,41.0472,-79.8089,40.068764,-79.826882,0,Patent attorney
+grocery_net,63.58,41.0935,-81.0425,41.8136,-81.23077,0,"Engineer, biomedical"
+gas_transport,81.85,34.0326,-82.2027,33.828473,-81.642924,0,Research scientist (physical sciences)
+gas_transport,59.7,37.2876,-77.295,36.962777,-77.640054,0,Purchasing manager
+gas_transport,90.54,33.9143,-118.3493,32.990285,-117.836803,0,"Editor, magazine features"
+grocery_pos,50.57,39.0298,-77.0793,38.394608,-76.437916,0,Operations geologist
+misc_net,3.79,40.6152,-74.415,40.813669,-75.283465,0,Leisure centre manager
+grocery_net,54.54,39.3426,-114.8859,38.69322,-115.87599,0,Interpreter
+misc_net,3.35,41.4768,-95.3509,41.907592,-95.809232,0,Engineering geologist
+gas_transport,50.61,41.6858,-90.3706,41.027284,-89.416172,0,Agricultural consultant
+grocery_net,50.74,33.6372,-96.6184,34.266941,-96.709668,0,Systems developer
+grocery_pos,186.73,26.7383,-80.276,27.610009,-79.49811,0,Paramedic
+grocery_net,39.95,33.3398,-92.7442,33.651123,-91.902918,0,Financial adviser
+gas_transport,55.18,26.7383,-80.276,27.346033,-80.475563,0,Paramedic
+grocery_pos,92.99,40.1008,-80.0652,40.706082,-80.366274,0,Dealer
+misc_pos,43.02,40.5662,-80.2099,41.419964,-79.957263,0,"Administrator, education"
+gas_transport,51.33,42.73,-104.7024,42.508248,-105.34481,0,Educational psychologist
+misc_pos,47.85,40.8295,-72.6473,40.712685,-72.124522,0,Financial trader
+shopping_pos,9.23,40.7699,-73.9511,41.395142,-74.887524,0,Audiological scientist
+gas_transport,80.36,47.3551,-96.798,46.60956,-96.630804,0,"Scientist, audiological"
+misc_net,6.36,40.2367,-74.0067,39.926556,-73.774415,0,"Administrator, charities/voluntary organisations"
+shopping_net,226.33,37.7773,-119.0825,36.819789,-119.670559,0,Health service manager
+shopping_net,215.99,42.825,-124.4409,42.988724,-123.904978,0,Retail merchandiser
+misc_net,1.47,40.4542,-98.6538,41.14486,-99.38762,0,Telecommunications researcher
+entertainment,5.83,31.571,-86.2743,31.798954,-86.213243,0,Exercise physiologist
+shopping_net,51.04,42.3066,-71.9202,41.948237,-71.668538,0,Accounting technician
+grocery_pos,122.05,41.4193,-99.3844,41.609064,-99.650276,0,Product designer
+grocery_net,106.19,38.6476,-78.7717,38.336898,-79.568795,0,Waste management officer
+grocery_pos,129.09,40.1151,-79.8627,40.92927,-79.548333,0,Mining engineer
+entertainment,7.06,37.2876,-77.295,37.426207,-76.502881,0,Purchasing manager
+gas_transport,61.71,35.8985,-97.2607,36.694647,-97.517515,0,Amenity horticulturist
+gas_transport,45.77,37.6848,-85.8784,36.687137,-85.278013,0,Surgeon
+gas_transport,61,42.6315,-75.1866,43.123814,-75.052169,0,Naval architect
+grocery_net,38.7,40.7491,-95.038,39.880088,-94.193907,0,IT trainer
+food_dining,98.24,31.4285,-90.8578,30.906565,-90.486622,0,"Therapist, horticultural"
+misc_net,3.66,40.6761,-91.0391,40.7433,-90.088705,0,Environmental consultant
+misc_pos,34.11,30.251,-92.5002,30.474879,-91.588063,0,Broadcast presenter
+grocery_pos,134.66,44.0577,-76.0196,43.994486,-75.603839,0,"Producer, radio"
+grocery_net,55.6,41.8114,-93.4855,41.081282,-92.85909,0,Trading standards officer
+gas_transport,58.79,44.0577,-76.0196,44.015435,-76.027125,0,"Producer, radio"
+grocery_net,57.43,40.8295,-72.6473,41.669034,-73.271605,0,Financial trader
+grocery_pos,83.81,36.9688,-78.5615,36.822396,-78.452392,0,Energy engineer
+grocery_net,27.03,38.577,-90.5255,38.984909,-90.842219,0,"Engineer, communications"
+misc_net,23.8,40.7268,-124.2174,40.110823,-124.429537,0,"Scientist, audiological"
+shopping_pos,3.74,26.7197,-80.1248,26.192035,-80.032857,0,Historic buildings inspector/conservation officer
+misc_pos,9.07,44.797,-73.5112,44.070021,-73.688454,0,Engineering geologist
+gas_transport,64.72,36.8809,-82.0956,36.265214,-81.891953,0,"Teacher, English as a foreign language"
+grocery_pos,92.56,32.5104,-86.8138,33.347838,-86.819795,0,Materials engineer
+grocery_pos,113.19,44.0577,-76.0196,44.465636,-75.525258,0,"Producer, radio"
+food_dining,187.27,38.7894,-77.2818,38.301944,-76.507232,0,Health visitor
+food_dining,68.24,42.4657,-93.8262,42.699989,-93.883915,0,Medical secretary
+shopping_pos,636.41,39.2136,-95.4404,39.936995,-94.604311,0,Theatre director
+shopping_net,500.92,33.3645,-81.2718,34.3281,-81.727628,0,Technical brewer
+shopping_pos,2.1,41.6125,-122.5258,41.096733,-122.623454,0,Systems analyst
+gas_transport,69.54,36.6403,-81.7776,35.906566,-82.096532,0,Land/geomatics surveyor
+gas_transport,84.23,37.9931,-100.9893,37.814677,-101.502441,0,Arboriculturist
+grocery_pos,117.77,31.1989,-81.3322,31.167024,-80.801294,0,"Engineer, structural"
+shopping_net,5.61,33.0771,-99.959,32.715671,-100.074321,0,"Physicist, medical"
+gas_transport,71.74,42.4999,-74.6117,43.392165,-75.505542,0,Diagnostic radiographer
+gas_transport,75.76,34.7789,-86.5438,33.816815,-86.429446,0,Television production assistant
+gas_transport,83.1,41.2419,-81.7453,42.206551,-81.591845,0,Medical sales representative
+misc_pos,32.82,43.196,-72.3001,42.348367,-72.689467,0,Naval architect
+gas_transport,57.5,43.3392,-75.7543,42.740793,-74.959902,0,Building control surveyor
+grocery_net,53.87,37.0581,-86.1938,36.784818,-86.369122,0,"Therapist, sports"
+gas_transport,47.1,38.9757,-77.0282,38.863724,-77.122748,0,"Optician, dispensing"
+misc_pos,184.83,37.9931,-100.9893,37.392254,-101.332313,0,Arboriculturist
+grocery_net,56.35,40.0369,-75.0664,39.220115,-74.711564,0,Structural engineer
+grocery_net,55.81,39.5723,-90.2379,39.575819,-90.149623,0,Commercial/residential surveyor
+gas_transport,67.91,40.7268,-124.2174,41.137569,-123.63216,0,"Scientist, audiological"
+gas_transport,75.82,28.1384,-80.6524,28.802621,-80.313624,0,Database administrator
+grocery_pos,123.14,30.251,-92.5002,31.021036,-92.90296,0,Broadcast presenter
+shopping_pos,8.34,43.0622,-77.2218,42.624988,-76.508987,0,Exhibition designer
+misc_net,14.03,41.5744,-75.5881,40.868184,-76.283066,0,Training and development officer
+shopping_pos,1.46,42.32,-78.0943,42.817788,-77.470532,0,Mechanical engineer
+misc_pos,10.26,40.732,-73.1,40.711398,-73.523504,0,Film/video editor
+misc_net,3.67,33.357,-89.0473,33.663412,-89.613292,0,Medical physicist
+shopping_net,8.95,42.2619,-94.5566,42.658626,-94.486224,0,Administrator
+grocery_pos,51.6,38.8954,-77.1633,38.197108,-77.644807,0,Mudlogger
+grocery_pos,204.72,44.9913,-92.9487,44.156171,-92.805728,0,Fisheries officer
+misc_net,4.47,33.0437,-81.7106,32.826449,-82.000131,0,"Conservator, museum/gallery"
+shopping_pos,4.08,40.817,-74,40.148746,-74.840312,0,"Programmer, multimedia"
+entertainment,145.75,42.958,-77.3083,42.446162,-78.048599,0,Cytogeneticist
+gas_transport,56.34,32.3836,-94.8653,32.044628,-94.761666,0,Multimedia programmer
+food_dining,31.8,32.3697,-81.3618,31.648009,-80.602973,0,"Therapist, occupational"
+gas_transport,63.39,35.6069,-90.3359,34.798873,-89.494405,0,Counselling psychologist
+shopping_pos,8.29,32.6205,-94.2,33.193514,-93.437407,0,Chiropodist
+grocery_pos,78.13,39.4336,-91.0664,40.247129,-91.699005,0,"Teacher, early years/pre"
+gas_transport,52.67,38.9621,-94.5959,39.662816,-93.712244,0,Counsellor
+shopping_net,2.11,44.6255,-116.4493,44.710102,-117.229968,0,Cartographer
+entertainment,5.27,41.1901,-74.0436,41.788775,-74.471154,0,Pensions consultant
+shopping_pos,1.42,41.4193,-99.3844,40.790587,-99.011834,0,Product designer
+grocery_pos,104.08,41.0552,-110.1603,41.677942,-110.829354,0,Research scientist (physical sciences)
+shopping_pos,9.63,27.2625,-80.3793,26.456712,-79.744921,0,Primary school teacher
+gas_transport,39.98,38.7897,-93.8702,38.995701,-93.569356,0,Electronics engineer
+grocery_pos,192.82,38.8881,-104.6556,39.299824,-103.854765,0,Museum/gallery exhibitions officer
+misc_pos,34.76,39.3391,-95.0999,38.78936,-95.405907,0,Air broker
+misc_pos,9.5,33.9568,-81.1405,34.099428,-81.916669,0,Chemical engineer
+grocery_pos,182.1,38.6207,-83.8067,39.499829,-83.26249,0,Advertising account executive
+grocery_pos,78.43,41.4768,-95.3509,42.465418,-95.211895,0,Engineering geologist
+grocery_net,76.37,43.2326,-86.2492,44.036016,-86.754147,0,Historic buildings inspector/conservation officer
+misc_net,6.37,33.9143,-118.3493,34.108257,-117.549012,0,"Editor, magazine features"
+grocery_net,28.37,32.8357,-79.8217,33.791152,-80.788125,0,Materials engineer
+shopping_net,5.82,29.9975,-90.2146,29.471413,-91.074361,0,Advertising account planner
+grocery_net,41.01,39.8127,-120.6405,39.949197,-119.792299,0,Chartered legal executive (England and Wales)
+gas_transport,70.56,37.0462,-76.4096,37.005252,-76.395765,0,Accounting technician
+gas_transport,57.64,36.3924,-91.9932,36.502461,-92.210445,0,Psychiatric nurse
+gas_transport,119.47,41.141,-84.5722,41.746779,-84.601964,0,Secondary school teacher
+grocery_pos,117.29,31.6453,-90.1801,32.035674,-89.835532,0,"Librarian, academic"
+entertainment,65.05,42.0789,-92.3763,41.388862,-91.844621,0,"Embryologist, clinical"
+gas_transport,61.99,39.5483,-119.7957,38.573952,-120.084189,0,Immunologist
+gas_transport,49.53,43.0172,-111.0292,43.038723,-111.821595,0,"Education officer, museum"
+grocery_net,54.47,42.728,-71.181,42.114749,-70.460861,0,Market researcher
+grocery_pos,281.06,35.9946,-81.7266,36.430124,-81.179483,1,"Psychologist, counselling"
+gas_transport,11.52,29.44,-98.459,29.819364,-99.142791,1,Special educational needs teacher
+grocery_pos,276.31,29.44,-98.459,29.273085,-98.83636,1,Nature conservation officer
+gas_transport,7.03,35.9946,-81.7266,35.909292,-82.09101,1,Patent attorney
+grocery_pos,275.73,29.44,-98.459,29.786426,-98.68341,1,Dance movement psychotherapist
+shopping_net,844.8,35.9946,-81.7266,35.987802,-81.254332,1,Transport planner
+misc_net,843.91,35.9946,-81.7266,35.985612,-81.383306,1,Arboriculturist
+gas_transport,10.76,29.44,-98.459,28.856712,-97.794207,1,"Designer, multimedia"
+grocery_pos,332.35,29.44,-98.459,29.320662,-97.937219,1,Public affairs consultant
+grocery_pos,315.34,29.44,-98.459,28.953283,-97.806528,1,Pathologist
+grocery_pos,337.05,40.3359,-79.6607,41.174382,-79.809888,1,IT trainer
+shopping_pos,711.66,40.3359,-79.6607,41.207335,-78.840933,1,Systems developer
+misc_net,707.5,40.3359,-79.6607,40.601968,-78.768636,1,"Engineer, land"
+shopping_net,942.62,35.9946,-81.7266,35.76589,-81.951839,1,Systems analyst
+travel,4.5,40.3359,-79.6607,39.492341,-78.859114,1,Naval architect
+shopping_pos,821.96,35.9946,-81.7266,35.772593,-81.593183,1,"Radiographer, diagnostic"
+shopping_net,1092.68,35.9946,-81.7266,36.981465,-80.767836,1,"Programme researcher, broadcasting/film/video"
+shopping_net,1254.27,35.9946,-81.7266,36.105024,-80.963186,1,Energy engineer
+grocery_pos,274.09,29.44,-98.459,29.789989,-97.996197,1,Event organiser
+grocery_net,14.37,64.7556,-165.6723,65.654142,-164.722603,1,Operational researcher
+grocery_pos,316.93,40.3359,-79.6607,39.528505,-80.233077,1,Market researcher
+grocery_pos,327.68,40.3359,-79.6607,40.236755,-80.309968,1,Probation officer
+shopping_net,966.11,64.7556,-165.6723,65.468863,-165.473127,1,Leisure centre manager
+misc_net,795.22,40.3359,-79.6607,40.352547,-79.327751,1,Corporate investment banker
+shopping_pos,1015.8,40.3359,-79.6607,40.306614,-79.961163,1,"Therapist, occupational"
+misc_net,722.18,40.3359,-79.6607,40.346282,-79.59967,1,Call centre manager
+shopping_net,898.81,40.3359,-79.6607,41.126312,-80.513488,1,Police officer
+shopping_net,1001.63,40.3359,-79.6607,39.911297,-80.626808,1,"Education officer, museum"
+misc_pos,49.61,64.7556,-165.6723,65.347667,-165.914542,1,Physiotherapist
+grocery_pos,295.26,64.7556,-165.6723,64.445035,-166.080207,1,Network engineer
+shopping_net,1099.99,40.3359,-79.6607,40.578351,-79.727578,1,Forensic psychologist
+health_fitness,18.17,64.7556,-165.6723,65.447094,-165.446843,1,Geochemist
+gas_transport,20.45,64.7556,-165.6723,64.088838,-165.104078,1,Armed forces training and education officer
+gas_transport,18.19,64.7556,-165.6723,63.917785,-165.827621,1,"Designer, furniture"
+grocery_pos,367.29,40.029,-93.1607,39.167065,-93.705245,1,"Optician, dispensing"
+misc_net,768.15,64.7556,-165.6723,64.623325,-166.403973,1,"Psychologist, forensic"
+misc_net,849.49,64.7556,-165.6723,65.266065,-164.865352,1,"Librarian, public"
+shopping_net,1177.79,40.029,-93.1607,39.288305,-92.476947,1,Fine artist
+grocery_pos,307.09,64.7556,-165.6723,64.909145,-164.712087,1,"Scientist, research (maths)"
+kids_pets,4.58,64.7556,-165.6723,65.052892,-166.067029,1,"Research officer, trade union"
+shopping_pos,730.78,64.7556,-165.6723,65.233866,-166.550779,1,Tourism officer
+shopping_net,1006.4,64.7556,-165.6723,65.220316,-165.005725,1,Human resources officer
+shopping_pos,830.72,64.7556,-165.6723,65.710538,-165.986117,1,"Surveyor, minerals"
+grocery_pos,311.92,64.7556,-165.6723,64.79501,-165.670735,1,Arboriculturist
+shopping_pos,762.93,40.029,-93.1607,40.205262,-93.499211,1,Applications developer
+shopping_net,855.88,40.029,-93.1607,40.786018,-93.301092,1,Video editor
+shopping_net,909.29,40.029,-93.1607,40.977312,-93.55098,1,Curator
+grocery_pos,300.14,34.0442,-94.3386,33.205504,-93.710845,1,"Research officer, political party"
+shopping_net,967.92,34.0442,-94.3386,34.371875,-93.649208,1,"Engineer, mining"
+grocery_pos,270.01,34.0442,-94.3386,34.535738,-94.524795,1,"Education officer, community"
+grocery_pos,289.69,34.0442,-94.3386,34.90683,-94.7085,1,"Physicist, medical"
+grocery_pos,311.83,38.5294,-82.6654,37.786479,-83.50659,1,Amenity horticulturist
+grocery_pos,283.19,38.5294,-82.6654,38.445375,-82.410087,1,Electrical engineer
+gas_transport,15.82,37.7184,-77.186,38.032519,-77.88831,1,Television camera operator
+grocery_pos,296.32,34.0442,-94.3386,34.776591,-94.138256,1,Higher education careers adviser
+grocery_pos,334.28,37.7184,-77.186,37.751241,-78.15634,1,Ambulance person
+misc_pos,664.73,42.0716,-75.0152,41.124211,-75.954718,1,Dealer
+gas_transport,8.79,34.0442,-94.3386,35.042148,-94.430423,1,Paediatric nurse
+grocery_pos,301.55,34.0442,-94.3386,34.081708,-94.914201,1,Trading standards officer
+grocery_pos,327.26,37.7184,-77.186,36.985656,-76.563765,1,"Surveyor, minerals"
+shopping_net,1127.56,42.0716,-75.0152,41.324955,-75.497389,1,"Engineer, technical sales"
+grocery_pos,276.41,38.5294,-82.6654,37.601116,-83.040523,1,"Designer, jewellery"
+misc_net,722.92,42.0716,-75.0152,41.763302,-75.411206,1,Clinical biochemist
+gas_transport,8.33,37.7184,-77.186,37.158814,-77.683783,1,"Engineer, electronics"
+grocery_pos,333.09,42.0716,-75.0152,42.908018,-75.716922,1,Water engineer
+grocery_pos,291.51,38.5294,-82.6654,39.426472,-83.495305,1,Science writer
+entertainment,564.57,42.0716,-75.0152,42.857025,-74.85479,1,Film/video editor
+shopping_pos,929.28,42.0716,-75.0152,42.996841,-74.702234,1,"Psychologist, counselling"
+misc_net,848.32,37.7184,-77.186,36.89666,-77.907818,1,"Solicitor, Scotland"
+shopping_net,1003.72,34.0442,-94.3386,33.576316,-95.062682,1,Product/process development scientist
+shopping_net,1131.66,38.5294,-82.6654,38.186537,-82.315761,1,Tree surgeon
+shopping_net,959.59,38.5294,-82.6654,37.735337,-82.210806,1,"Programme researcher, broadcasting/film/video"
+entertainment,388.02,34.0442,-94.3386,33.89745,-95.330061,1,Careers information officer
+shopping_net,1050.01,38.5294,-82.6654,39.060309,-81.737885,1,"Geologist, engineering"
+shopping_net,996.93,38.5294,-82.6654,37.786024,-81.928469,1,Counsellor
+shopping_pos,1030.43,37.7184,-77.186,37.047639,-77.100192,1,Freight forwarder
+shopping_net,937.47,38.5294,-82.6654,38.430689,-82.344224,1,Senior tax professional/tax inspector
+misc_net,623.43,38.5294,-82.6654,39.18755,-82.342372,1,"Engineer, broadcasting (operations)"
+grocery_pos,346.69,42.0716,-75.0152,41.300248,-74.022048,1,English as a second language teacher
+grocery_pos,337.06,26.3304,-81.5871,26.137097,-82.463519,1,Economist
+gas_transport,18.86,43.7588,-97.8712,42.903425,-97.212673,1,Patent attorney
+shopping_net,847.72,42.0716,-75.0152,42.006549,-74.340631,1,Child psychotherapist
+misc_net,897.67,38.5294,-82.6654,38.842504,-82.041428,1,Water engineer
+grocery_pos,305.6,26.3304,-81.5871,25.679503,-81.025904,1,Claims inspector/assessor
+grocery_pos,301.33,26.3304,-81.5871,26.781286,-81.183791,1,Tourist information centre manager
+misc_net,701.88,42.0716,-75.0152,41.456892,-75.169086,1,"Exhibitions officer, museum/gallery"
+grocery_pos,303.14,26.3304,-81.5871,25.733667,-80.851187,1,Location manager
+misc_net,749.94,38.5294,-82.6654,37.983548,-82.934619,1,Patent attorney
+shopping_net,1006.34,43.7588,-97.8712,44.40235,-97.844503,1,"Engineer, biomedical"
+shopping_pos,1104.38,37.7184,-77.186,38.474297,-77.332194,1,Research scientist (physical sciences)
+shopping_net,1044.81,26.3304,-81.5871,27.141015,-81.073981,1,Purchasing manager
+shopping_net,937.57,37.7184,-77.186,38.193305,-77.665911,1,"Editor, magazine features"
+shopping_net,918.69,37.7184,-77.186,38.664701,-77.143946,1,Operations geologist
+travel,10.53,37.7184,-77.186,37.988194,-77.332289,1,Leisure centre manager
+misc_net,835.36,26.3304,-81.5871,26.855446,-82.548178,1,Interpreter
+food_dining,95.94,42.0716,-75.0152,41.834424,-75.351999,1,Engineering geologist
+travel,9.91,38.5294,-82.6654,39.080891,-83.365176,1,Agricultural consultant
+shopping_pos,1148.15,37.7184,-77.186,38.167926,-76.304748,1,Systems developer
+shopping_pos,945.56,26.3304,-81.5871,26.393314,-81.335932,1,Paramedic
+kids_pets,18.24,42.0716,-75.0152,42.98702,-75.532304,1,Financial adviser
+grocery_pos,325.38,26.3304,-81.5871,26.051604,-81.182274,1,Paramedic
+gas_transport,8.45,26.3304,-81.5871,25.568094,-80.79047,1,Dealer
+grocery_pos,311.47,43.7588,-97.8712,43.641251,-97.794037,1,"Administrator, education"
+shopping_net,1161.58,26.3304,-81.5871,25.919818,-82.500661,1,Educational psychologist
+misc_net,685.63,26.3304,-81.5871,26.684146,-80.7145,1,Financial trader
+grocery_pos,344.01,43.7588,-97.8712,42.962551,-98.698146,1,Audiological scientist
+misc_net,831.16,44.0943,-69.4828,43.120648,-69.641815,1,"Scientist, audiological"
+grocery_pos,299.98,42.1767,-79.9416,41.339602,-79.518084,1,"Administrator, charities/voluntary organisations"
+grocery_pos,353.06,44.0943,-69.4828,43.280956,-69.003587,1,Health service manager
+shopping_pos,846.52,44.0943,-69.4828,43.427383,-69.409292,1,Retail merchandiser
+grocery_pos,334.85,44.0943,-69.4828,44.09771,-70.421591,1,Telecommunications researcher
+gas_transport,8.18,42.1767,-79.9416,42.494263,-78.989471,1,Exercise physiologist
+shopping_net,1008.39,44.0943,-69.4828,43.65373,-69.318468,1,Accounting technician
+gas_transport,9.15,44.0943,-69.4828,43.20773,-69.566556,1,Product designer
+gas_transport,11.48,42.1767,-79.9416,42.623706,-80.160534,1,Waste management officer
+misc_pos,830.58,44.0943,-69.4828,43.751528,-68.677043,1,Mining engineer
+health_fitness,21.13,44.0943,-69.4828,43.826314,-70.183403,1,Purchasing manager
+health_fitness,19.51,44.0943,-69.4828,43.928975,-70.04507,1,Amenity horticulturist
+shopping_net,992.1,42.1767,-79.9416,42.628669,-80.041709,1,Surgeon
+shopping_pos,882.9,42.1767,-79.9416,41.430918,-79.057781,1,Naval architect
+health_fitness,24.78,44.0943,-69.4828,45.047977,-69.949649,1,IT trainer
+shopping_net,1001.51,42.1767,-79.9416,41.430031,-79.673705,1,"Therapist, horticultural"
+gas_transport,11.73,41.5205,-80.0573,41.947427,-79.796264,1,Environmental consultant
+gas_transport,7.04,41.0233,-98.9041,40.287778,-98.570998,1,Broadcast presenter
+grocery_pos,288.41,42.1767,-79.9416,42.72627,-79.387428,1,"Producer, radio"
+grocery_pos,298.99,42.1767,-79.9416,42.099894,-79.267718,1,Trading standards officer
+grocery_pos,368.43,44.0943,-69.4828,45.027193,-69.570034,1,"Producer, radio"
+grocery_pos,328.68,41.5205,-80.0573,42.148618,-79.398595,1,Financial trader
+grocery_pos,303.58,42.4069,-74.1528,43.245743,-73.835641,1,Energy engineer
+shopping_pos,644.4,41.0233,-98.9041,40.834742,-99.895337,1,"Engineer, communications"
+food_dining,120.58,41.5205,-80.0573,42.470024,-80.126576,1,"Scientist, audiological"
+shopping_net,1081.35,41.5205,-80.0573,42.455406,-79.52164,1,Historic buildings inspector/conservation officer
+misc_net,843.44,42.1767,-79.9416,42.665706,-80.064857,1,Engineering geologist
+kids_pets,20.58,44.0943,-69.4828,44.513965,-69.755144,1,"Teacher, English as a foreign language"
+shopping_net,776.7,41.5205,-80.0573,40.680209,-79.099101,1,Materials engineer
+misc_net,728.36,42.1767,-79.9416,41.2617,-79.253511,1,"Producer, radio"
+misc_net,784.77,41.0233,-98.9041,40.341318,-99.045651,1,Health visitor
+home,264.35,44.0943,-69.4828,43.587502,-69.087141,1,Medical secretary
+grocery_pos,278.32,42.4069,-74.1528,43.045176,-73.212573,1,Theatre director
+misc_net,696.76,42.1767,-79.9416,42.280156,-79.500383,1,Technical brewer
+food_dining,119.72,44.0943,-69.4828,44.98224,-70.24853,1,Systems analyst
+misc_net,741.88,42.4069,-74.1528,42.342886,-73.446027,1,Land/geomatics surveyor
+shopping_net,1116.8,41.0233,-98.9041,41.192006,-99.230584,1,Arboriculturist
+grocery_pos,320.6,41.0233,-98.9041,41.867565,-99.096279,1,"Engineer, structural"
+shopping_pos,952.08,30.7145,-88.0918,30.803533,-88.140115,1,"Physicist, medical"
+shopping_net,1060.34,30.7145,-88.0918,31.602312,-88.685518,1,Diagnostic radiographer
+gas_transport,7.42,42.4069,-74.1528,41.422777,-74.859228,1,Television production assistant
+grocery_pos,276.8,41.0233,-98.9041,41.700959,-98.207349,1,Medical sales representative
+grocery_pos,336.2,41.0233,-98.9041,41.965421,-98.334757,1,Naval architect
+grocery_pos,303.03,42.4069,-74.1528,41.514476,-74.971581,1,Building control surveyor
+grocery_pos,308.84,41.5205,-80.0573,42.194299,-80.572425,1,"Therapist, sports"
+kids_pets,19.19,30.7145,-88.0918,30.917934,-88.582726,1,"Optician, dispensing"
+shopping_net,1033.78,41.5205,-80.0573,41.609588,-80.173127,1,Arboriculturist
+shopping_net,994.92,37.3304,-121.7913,38.075623,-122.14827,1,Structural engineer
+shopping_net,859.46,41.5205,-80.0573,41.872,-79.60297,1,Commercial/residential surveyor
+shopping_net,919.17,42.4069,-74.1528,41.855776,-74.964042,1,"Scientist, audiological"
+shopping_net,1062.95,41.0233,-98.9041,41.942402,-98.005584,1,Database administrator
+shopping_pos,770.94,41.0233,-98.9041,41.569284,-98.87645,1,Broadcast presenter
+shopping_pos,728.77,41.5205,-80.0573,41.250399,-79.519284,1,Exhibition designer
+kids_pets,25.27,30.7145,-88.0918,31.146301,-89.003622,1,Training and development officer
+misc_net,816.89,37.3304,-121.7913,37.301768,-122.469759,1,Mechanical engineer
+kids_pets,23.18,30.7145,-88.0918,30.209,-88.981982,1,Film/video editor
+shopping_net,976.64,42.4069,-74.1528,41.419539,-74.35322,1,Medical physicist
+entertainment,510.59,41.0233,-98.9041,41.213009,-98.097519,1,Administrator
+grocery_pos,307.5,37.3304,-121.7913,37.5925,-122.356511,1,Mudlogger
+kids_pets,20.96,41.5205,-80.0573,41.100634,-79.38016,1,Fisheries officer
+home,224.94,30.7145,-88.0918,30.344517,-88.770517,1,"Conservator, museum/gallery"
+misc_net,790.35,37.3304,-121.7913,37.033841,-121.371988,1,"Programmer, multimedia"
+shopping_net,870.97,42.4069,-74.1528,42.433841,-73.699107,1,Cytogeneticist
+misc_net,916.87,42.4069,-74.1528,42.550435,-73.371565,1,Multimedia programmer
+misc_net,714.88,42.4069,-74.1528,42.686461,-75.038985,1,"Therapist, occupational"
+shopping_net,1065.43,41.0233,-98.9041,41.880236,-98.612455,1,Counselling psychologist
+misc_net,813.73,30.7145,-88.0918,31.703636,-87.507845,1,Chiropodist
+entertainment,417.97,40.8095,-72.8229,41.530432,-72.937586,1,"Teacher, early years/pre"
+grocery_pos,306.81,37.3304,-121.7913,36.502259,-122.323669,1,Counsellor
+gas_transport,12.57,37.3304,-121.7913,36.860137,-122.217748,1,Cartographer
+grocery_pos,324.87,41.4193,-99.3844,41.603137,-99.129649,1,Pensions consultant
+grocery_pos,325.86,36.115,-84.0438,35.825271,-84.886528,1,Product designer
+grocery_net,16.44,41.4193,-99.3844,40.869894,-99.153196,1,Research scientist (physical sciences)
+grocery_pos,277.53,37.3304,-121.7913,36.59875,-121.383937,1,Primary school teacher
+misc_pos,8.56,40.8095,-72.8229,40.813814,-73.4205,1,Electronics engineer
+grocery_pos,328.57,36.115,-84.0438,35.281327,-84.797388,1,Museum/gallery exhibitions officer
+grocery_net,13.2,41.4193,-99.3844,42.024265,-98.441592,1,Air broker
+grocery_pos,377.28,30.7145,-88.0918,30.707366,-88.776325,1,Chemical engineer
+misc_pos,7.24,30.7145,-88.0918,31.427686,-88.056135,1,Advertising account executive
+misc_pos,8.54,40.8095,-72.8229,40.784122,-72.888488,1,Engineering geologist
+misc_net,801.35,35.0583,-79.008,35.860218,-78.037255,1,Historic buildings inspector/conservation officer
+entertainment,549.13,40.8095,-72.8229,40.392225,-73.195537,1,"Editor, magazine features"
+food_dining,96.57,40.8095,-72.8229,41.386059,-73.709579,1,Materials engineer
+misc_net,746.43,35.0583,-79.008,35.549423,-79.986157,1,Advertising account planner
+shopping_pos,747.46,30.7145,-88.0918,31.460253,-89.039611,1,Chartered legal executive (England and Wales)
+entertainment,522.21,30.7145,-88.0918,31.63293,-88.401395,1,Accounting technician
+grocery_net,12.95,41.4193,-99.3844,40.701366,-98.890275,1,Psychiatric nurse
+gas_transport,10.72,30.7145,-88.0918,29.970693,-88.339839,1,Secondary school teacher
+gas_transport,8.25,37.3304,-121.7913,37.259809,-121.89842,1,"Librarian, academic"
+shopping_pos,839.35,41.4193,-99.3844,42.337832,-99.34228,1,"Embryologist, clinical"
+personal_care,22.22,40.8095,-72.8229,41.561246,-72.498305,1,Immunologist
+health_fitness,21.47,40.8095,-72.8229,40.207719,-72.448746,1,"Education officer, museum"
+shopping_net,1169.82,35.0583,-79.008,35.849003,-78.638156,1,Market researcher
+misc_net,690.81,35.0583,-79.008,35.439158,-78.609636,1,"Librarian, academic"
+shopping_pos,969.64,37.3304,-121.7913,36.709536,-122.649175,1,"Embryologist, clinical"
+shopping_net,896.28,36.115,-84.0438,36.450895,-84.733546,1,Immunologist
+home,249.87,30.7145,-88.0918,30.727198,-88.499148,1,"Education officer, museum"
+shopping_net,1034.21,41.4193,-99.3844,41.12487,-100.349332,1,Market researcher
+shopping_pos,5.83,40.0246,-79.6955,39.175796,-80.403127,0,Physiotherapist
+kids_pets,5.78,35.2087,-92.2123,35.504181,-93.170134,0,"Physicist, medical"
+health_fitness,75.18,48.3396,-102.24,48.434199,-101.96698,0,Administrator
+health_fitness,71.98,39.4055,-75.3209,39.355096,-75.184237,0,Insurance risk surveyor
+personal_care,130.11,39.6321,-84.2675,38.73438,-85.154955,0,"Investment banker, corporate"
+kids_pets,59.08,32.9413,-81.1807,32.450905,-80.56264,0,Social researcher
+home,6.79,44.5232,-86.2061,45.119263,-85.600871,0,"Designer, jewellery"
+kids_pets,37.25,33.6751,-98.6576,33.223158,-98.636626,0,Chief Technology Officer
+home,5.92,48.8878,-118.2105,48.312045,-117.43078,0,Special educational needs teacher
+misc_pos,4.27,40.3359,-79.6607,40.351813,-79.958146,0,Public affairs consultant
+grocery_pos,198.39,36.522,-87.349,37.179198,-87.485381,0,Pathologist
+grocery_pos,24.74,40.7491,-95.038,40.275891,-96.011548,0,IT trainer
+shopping_net,7.77,39.3716,-77.8229,40.103866,-78.624459,0,Systems developer
+grocery_pos,71.22,27.7898,-82.7243,27.630593,-82.308891,0,"Engineer, land"
+grocery_pos,96.29,41.6125,-122.5258,41.65752,-122.230347,0,Systems analyst
+shopping_pos,7.77,32.9396,-105.8189,32.863258,-106.520205,0,Naval architect
+shopping_net,3.26,40.9918,-73.98,41.831174,-74.335559,0,"Radiographer, diagnostic"
+misc_net,327,36.385,-98.0727,36.384092,-99.048472,0,"Programme researcher, broadcasting/film/video"
+shopping_pos,341.67,38.9763,-87.3667,38.674491,-88.305767,0,Energy engineer
+food_dining,63.07,42.1767,-79.9416,41.430274,-79.492553,0,Event organiser
+grocery_pos,44.71,40.6747,-74.2239,40.079588,-74.848087,0,Operational researcher
+grocery_pos,57.34,42.728,-71.181,42.26876,-71.217297,0,Market researcher
+gas_transport,50.79,40.6866,-92.6833,40.18893,-91.955115,0,Probation officer
+grocery_net,46.28,40.6152,-74.415,40.021888,-74.228188,0,Leisure centre manager
+shopping_pos,9.55,31.9571,-98.9656,31.62635,-98.610225,0,Corporate investment banker
+shopping_pos,22.95,42.9993,-88.2196,43.375041,-89.055065,0,"Therapist, occupational"
+misc_net,2.55,35.8072,-78.0892,36.74987,-78.67787,0,Call centre manager
+grocery_pos,64.09,42.2203,-83.3583,42.360426,-83.552316,0,Police officer
+misc_pos,6.85,43.0172,-111.0292,43.753735,-111.454923,0,"Education officer, museum"
+grocery_pos,90.22,20.0827,-155.488,19.560013,-156.045889,0,Physiotherapist
+shopping_pos,4.02,42.8062,-100.6215,42.47559,-101.265846,0,Network engineer
+shopping_net,3.66,43.7575,-122.481,44.278191,-121.815161,0,Forensic psychologist
+grocery_pos,82.8,36.3846,-89.4649,36.294205,-89.811282,0,Geochemist
+shopping_pos,66.21,46.368,-87.9938,46.412038,-88.516663,0,Armed forces training and education officer
+misc_pos,25.58,30.4066,-91.1468,29.737426,-90.853194,0,"Designer, furniture"
+shopping_pos,9.03,38.9757,-77.0282,38.880898,-76.441116,0,"Optician, dispensing"
+grocery_pos,99,37.1046,-83.5706,36.823545,-83.90104,0,"Psychologist, forensic"
+grocery_pos,207.36,40.6729,-73.5365,40.202538,-73.859212,0,"Librarian, public"
+misc_pos,181.35,32.153,-90.1217,31.939812,-90.726209,0,Fine artist
+gas_transport,82.22,40.5891,-75.4645,40.586238,-75.802249,0,"Scientist, research (maths)"
+grocery_pos,221.81,40.8095,-72.8229,40.011959,-72.594808,0,"Research officer, trade union"
+gas_transport,53.6,39.7562,-98.4462,40.332519,-99.062962,0,Tourism officer
+misc_pos,54.02,42.3496,-73.5873,42.041783,-73.076424,0,Human resources officer
+gas_transport,102.13,38.9999,-109.615,39.807313,-109.348294,0,"Surveyor, minerals"
+grocery_pos,212.75,37.9931,-100.9893,38.862183,-101.234087,0,Arboriculturist
+misc_pos,7.24,30.7145,-88.0918,31.427686,-88.056135,1,Advertising account executive
+misc_pos,8.54,40.8095,-72.8229,40.784122,-72.888488,1,Engineering geologist
+misc_net,801.35,35.0583,-79.008,35.860218,-78.037255,1,Historic buildings inspector/conservation officer
+entertainment,549.13,40.8095,-72.8229,40.392225,-73.195537,1,"Editor, magazine features"
+food_dining,96.57,40.8095,-72.8229,41.386059,-73.709579,1,Materials engineer
+misc_net,746.43,35.0583,-79.008,35.549423,-79.986157,1,Advertising account planner
+shopping_pos,747.46,30.7145,-88.0918,31.460253,-89.039611,1,Chartered legal executive (England and Wales)
+entertainment,522.21,30.7145,-88.0918,31.63293,-88.401395,1,Accounting technician
+grocery_net,12.95,41.4193,-99.3844,40.701366,-98.890275,1,Psychiatric nurse
+gas_transport,10.72,30.7145,-88.0918,29.970693,-88.339839,1,Secondary school teacher
+gas_transport,8.25,37.3304,-121.7913,37.259809,-121.89842,1,"Librarian, academic"
+shopping_pos,839.35,41.4193,-99.3844,42.337832,-99.34228,1,"Embryologist, clinical"
+personal_care,22.22,40.8095,-72.8229,41.561246,-72.498305,1,Immunologist
+health_fitness,21.47,40.8095,-72.8229,40.207719,-72.448746,1,"Education officer, museum"
+shopping_net,1169.82,35.0583,-79.008,35.849003,-78.638156,1,Market researcher
+misc_net,690.81,35.0583,-79.008,35.439158,-78.609636,1,"Librarian, academic"
+shopping_pos,969.64,37.3304,-121.7913,36.709536,-122.649175,1,"Embryologist, clinical"
+shopping_net,896.28,36.115,-84.0438,36.450895,-84.733546,1,Immunologist
+home,249.87,30.7145,-88.0918,30.727198,-88.499148,1,"Education officer, museum"
+shopping_net,1034.21,41.4193,-99.3844,41.12487,-100.349332,1,Market researcher

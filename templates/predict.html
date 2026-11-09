@@ -1,0 +1,182 @@
+{% extends "nav.html" %}
+{% block content %}
+{% load static %}
+
+<!-- Chart.js & Datalabels Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+
+<div class="Contact_section layout_padding" style="padding-top: 40px; padding-bottom: 60px;">
+    <div class="container">
+      
+      <!-- Page Title & Header -->
+      <div class="text-center mb-4">
+        <h1 class="categories_text" style="font-size: 38px; color: #470005; font-weight: 800;">Fraud Risk Analysis Report</h1>
+        <p class="dummy_text" style="font-size: 16px; color: #555;">Real-Time Machine Learning Transaction Assessment & Explainability Insights</p>
+      </div>
+
+      <!-- Main Prediction Banner -->
+      <div class="row mb-4 justify-content-center">
+        <div class="col-md-10">
+          {% if prediction_data == "Fraud" %}
+          <div style="background: linear-gradient(135deg, #ff4d4d 0%, #b30000 100%); color: #ffffff; padding: 25px; border-radius: 16px; box-shadow: 0 8px 25px rgba(179,0,0,0.3); text-align: center;">
+            <div style="font-size: 45px; margin-bottom: 5px;">🚨</div>
+            <h2 style="font-weight: 800; font-size: 30px; margin-bottom: 5px; color: #ffffff;">HIGH FRAUD RISK DETECTED</h2>
+            <p style="font-size: 18px; margin: 0; opacity: 0.95;">Fraud Risk Score: <strong>{{fraud_prob}}%</strong> | Status: Flagged for Review</p>
+          </div>
+          {% else %}
+          <div style="background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%); color: #ffffff; padding: 25px; border-radius: 16px; box-shadow: 0 8px 25px rgba(40,167,69,0.3); text-align: center;">
+            <div style="font-size: 45px; margin-bottom: 5px;">✅</div>
+            <h2 style="font-weight: 800; font-size: 30px; margin-bottom: 5px; color: #ffffff;">LEGITIMATE TRANSACTION</h2>
+            <p style="font-size: 18px; margin: 0; opacity: 0.95;">Safety Confidence Score: <strong>{{safe_prob}}%</strong> | Status: Approved</p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- Dynamic Graphs Section -->
+      <div class="row mb-5">
+        <!-- Chart 1: Probability Doughnut Chart -->
+        <div class="col-md-6 mb-4">
+          <div style="background: #ffffff; border-radius: 15px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); height: 100%; border: 1px solid #e0e0e0;">
+            <h4 style="font-weight: 700; color: #470005; text-align: center; margin-bottom: 20px;">Model Confidence Breakdown (%)</h4>
+            <div style="position: relative; height: 260px;">
+              <canvas id="probabilityChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chart 2: Feature Risk Factors Bar Chart -->
+        <div class="col-md-6 mb-4">
+          <div style="background: #ffffff; border-radius: 15px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); height: 100%; border: 1px solid #e0e0e0;">
+            <h4 style="font-weight: 700; color: #470005; text-align: center; margin-bottom: 20px;">Risk Factors Weight Comparison</h4>
+            <div style="position: relative; height: 260px;">
+              <canvas id="riskFactorsChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transaction Details & Reasoning Section -->
+      <div class="row mb-4">
+        <!-- Transaction Info Card -->
+        <div class="col-md-5 mb-4">
+          <div style="background: #ffffff; border-radius: 15px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border: 1px solid #e0e0e0; height: 100%;">
+            <h4 style="font-weight: 700; color: #470005; margin-bottom: 20px; border-bottom: 2px solid #470005; padding-bottom: 10px;">Transaction Details</h4>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 16px; line-height: 2.2;">
+              <li><strong>Category:</strong> {{category}}</li>
+              <li><strong>Amount:</strong> {{amount}}</li>
+              <li><strong>User Location:</strong> {{user_place}}</li>
+              <li><strong>Merchant Location:</strong> {{merchant_place}}</li>
+              <li><strong>Job Title:</strong> {{job}}</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Explanatory Reasoning Card ("Why its Fraud / Not Fraud") -->
+        <div class="col-md-7 mb-4">
+          <div style="background: #ffffff; border-radius: 15px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border: 1px solid #e0e0e0; height: 100%;">
+            <h4 style="font-weight: 700; color: #470005; margin-bottom: 20px; border-bottom: 2px solid #470005; padding-bottom: 10px;">Why Was This Decision Made? (Reasoning)</h4>
+            <div style="font-size: 15px; line-height: 1.8;">
+              {% for reason in reasons %}
+              <div style="margin-bottom: 15px; padding: 12px 15px; border-radius: 8px; {% if 'Flag' in reason or 'Fraud' in reason %}background-color: #fff3f3; border-left: 4px solid #dc3545; color: #721c24;{% else %}background-color: #f3faf4; border-left: 4px solid #28a745; color: #155724;{% endif %}">
+                <strong>📌</strong> {{reason}}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="text-center mt-4 mb-4" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <a href="data" class="btn" style="background-color: #470005; color: #ffffff; font-size: 17px; font-weight: 700; padding: 12px 35px; border-radius: 30px; text-transform: uppercase; transition: all 0.3s ease;">Predict Another Transaction</a>
+      </div>
+
+    </div>
+</div>
+
+<!-- Dynamic Charts JavaScript -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    Chart.register(ChartDataLabels);
+
+    // Chart 1: Probability Doughnut Chart
+    var ctx1 = document.getElementById('probabilityChart').getContext('2d');
+    new Chart(ctx1, {
+        type: 'doughnut',
+        data: {
+            labels: ['Fraud Risk (%)', 'Safe Confidence (%)'],
+            datasets: [{
+                data: [{{fraud_prob}}, {{safe_prob}}],
+                backgroundColor: ['#dc3545', '#28a745'],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { 
+                    position: 'bottom',
+                    labels: { font: { size: 14, weight: 'bold' } }
+                },
+                datalabels: {
+                    color: '#ffffff',
+                    font: { weight: 'bold', size: 16 },
+                    formatter: function(value) {
+                        return value + '%';
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return ' ' + context.label + ': ' + context.raw + '%';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // Chart 2: Risk Factors Bar Chart
+    var ctx2 = document.getElementById('riskFactorsChart').getContext('2d');
+    new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: ['Amount Risk', 'Category Risk', 'Location Mismatch'],
+            datasets: [{
+                label: 'Risk Level (0 - 100)',
+                data: [{{amount_risk}}, {{cat_risk}}, {{location_risk}}],
+                backgroundColor: ['#ffc107', '#fd7e14', '#dc3545'],
+                borderRadius: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, max: 100 }
+            },
+            plugins: {
+                legend: { display: false },
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top',
+                    color: '#470005',
+                    font: { weight: 'bold', size: 14 },
+                    formatter: function(value) {
+                        return value;
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+
+{% for i in messages %}
+<script>alert("{{i}}")</script>
+{% endfor %}
+
+{% endblock %}

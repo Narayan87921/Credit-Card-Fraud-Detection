@@ -1,0 +1,33 @@
+{% extends "nav.html" %}
+{% block content %}
+{% load static %}
+         <!-- banner section start -->
+         <div class="banner_section">
+            <div class="container-fluid padding_0">
+               <div id="my_slider" class="carousel slide" data-interval="false">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="padding_left_0">
+                                 <h1 class="retailer_text">Credit Card Fraud Detection Using Machine Learning</h1>
+                                 <p class="search_text" style="font-size: 16px; line-height: 1.6; margin-top: 15px; color: #222222;">An intelligent web platform leveraging supervised Machine Learning classification algorithms (Logistic Regression, Random Forest, KNN, Naive Bayes) to analyze transaction patterns, identify suspicious activity in real time, and safeguard cardholders from fraudulent transactions.</p>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div><img src="{% static 'images/img-1.png' %}" class="image_1"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- banner section end -->
+
+       <!-- copyright section start -->
+       <div class="copyright_section">
+         <div class="copyright_text">Credit Card Fraud Detection &copy; 2025</div>
+      </div>
+      <!-- copyright section end -->
+      {% endblock %}

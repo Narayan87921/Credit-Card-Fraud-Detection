@@ -1,0 +1,110 @@
+{% extends "nav.html" %}
+{% block content %}
+{% load static %}
+
+<!-- contact section start -->
+ <div class="Contact_section layout_padding">
+    <div class="container">
+      <h1 class="categories_text">Fraud Prediction</h1>
+      <p class="dummy_text" style="text-align: center; color: #666; margin-bottom: 30px;">Enter transaction details below to evaluate fraud risk</p>
+      <div class="email_box">
+        <div class="input_main">
+          <div class="container">
+            <form method="post">
+                {% csrf_token %}
+              
+              <!-- Category Dropdown -->
+              <div class="form-group">
+                <label style="font-weight: 600; color: #470005; margin-bottom: 5px;">Transaction Category</label>
+                <select class="email-bt" name="cat" required style="height: 50px; background-color: #fff;">
+                  <option value="" disabled selected>Select Category</option>
+                  <option value="grocery_pos">Grocery (In-Store)</option>
+                  <option value="gas_transport">Gas & Transport</option>
+                  <option value="shopping_net">Shopping (Online)</option>
+                  <option value="shopping_pos">Shopping (In-Store)</option>
+                  <option value="misc_net">Miscellaneous (Online)</option>
+                  <option value="grocery_net">Grocery (Online)</option>
+                  <option value="misc_pos">Miscellaneous (In-Store)</option>
+                  <option value="entertainment">Entertainment</option>
+                  <option value="food_dining">Food & Dining</option>
+                  <option value="kids_pets">Kids & Pets</option>
+                  <option value="health_fitness">Health & Fitness</option>
+                  <option value="home">Home</option>
+                  <option value="travel">Travel</option>
+                  <option value="personal_care">Personal Care</option>
+                </select>
+              </div>
+
+              <!-- Transaction Amount -->
+              <div class="form-group">
+                <label style="font-weight: 600; color: #470005; margin-bottom: 5px;">Transaction Amount</label>
+                <input type="number" step="any" min="0" class="email-bt" placeholder="Enter Transaction Amount" name="amt" required>
+              </div>
+
+              <!-- User Place -->
+              <div class="form-group">
+                <label style="font-weight: 600; color: #470005; margin-bottom: 5px;">User Location / Place</label>
+                <input type="text" class="email-bt" placeholder="Enter User Location (e.g. Mumbai, Bengaluru, Goa)" name="user_place" list="location_suggestions" required>
+              </div>
+
+              <!-- Merchant Place -->
+              <div class="form-group">
+                <label style="font-weight: 600; color: #470005; margin-bottom: 5px;">Merchant Location / Place</label>
+                <input type="text" class="email-bt" placeholder="Enter Merchant Location (e.g. Pune, Delhi, Store City)" name="merchant_place" list="location_suggestions" required>
+              </div>
+
+              <!-- Datalist for autocomplete suggestions -->
+              <datalist id="location_suggestions">
+                <option value="Mumbai, Maharashtra">
+                <option value="Delhi NCR">
+                <option value="Bengaluru, Karnataka">
+                <option value="Hyderabad, Telangana">
+                <option value="Chennai, Tamil Nadu">
+                <option value="Kolkata, West Bengal">
+                <option value="Pune, Maharashtra">
+                <option value="Ahmedabad, Gujarat">
+                <option value="Jaipur, Rajasthan">
+                <option value="Chandigarh">
+                <option value="Kochi, Kerala">
+                <option value="Goa">
+                <option value="Lucknow, Uttar Pradesh">
+                <option value="Indore, Madhya Pradesh">
+                <option value="New York, USA">
+                <option value="London, UK">
+              </datalist>
+
+              <!-- Job -->
+              <div class="form-group">
+                <label style="font-weight: 600; color: #470005; margin-bottom: 5px;">Job Title</label>
+                <input type="text" class="email-bt" placeholder="e.g. Software Engineer" name="job" required>
+              </div>
+              
+              <div class="send_bt">
+                <button type="submit" style="width: 100%;
+                  float: left;
+                  font-size: 18px;
+                  color: #ffffff;
+                  background-color: #470005;
+                  text-align: center;
+                  padding: 12px 0px;
+                  border-radius: 40px;
+                  margin-top: 20px;
+                  text-transform: uppercase;
+                  font-weight: 600;">Predict Fraud Risk</button>
+              </div> 
+              
+            </form>   
+          </div> 
+                         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact section end -->
+ 
+{% for i in messages %}
+<script>alert("{{i}}")</script>
+
+{% endfor %}
+
+{% endblock %}
