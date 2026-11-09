@@ -73,6 +73,6 @@ MCA Academic Major Project
 
 ## Author
 
-Narayana
+Narayana Reddy T
 
 GitHub: https://github.com/Narayan87921
